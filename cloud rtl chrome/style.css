@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(chrome-extension://__MSG_@@extension_id__/Vazirmatn-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(chrome-extension://__MSG_@@extension_id__/Vazirmatn-Light.ttf) format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(chrome-extension://__MSG_@@extension_id__/Vazirmatn-Medium.ttf) format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(chrome-extension://__MSG_@@extension_id__/Vazirmatn-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(chrome-extension://__MSG_@@extension_id__/Vazirmatn-Bold.ttf) format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(chrome-extension://__MSG_@@extension_id__/Vazirmatn-ExtraBold.ttf) format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(chrome-extension://__MSG_@@extension_id__/Vazirmatn-Black.ttf) format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(chrome-extension://__MSG_@@extension_id__/Vazirmatn-Thin.ttf) format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(chrome-extension://__MSG_@@extension_id__/Vazirmatn-ExtraLight.ttf) format('truetype');
+  font-weight: 200;
+}
+
+html, body, div, span, p, a, button, input, textarea, select, option {
+  font-family: 'Vazirmatn', sans-serif !important;
+}

@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Claude RTL Plus",
+  "version": "1.0.0",
+  "description": "افزونه‌ای برای راست‌چین و فارسی‌سازی چت‌های Claude",
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png"
+  },
+  "action": {
+    "default_icon": {
+      "48": "icon-48.png",
+      "96": "icon-96.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["storage"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "Vazirmatn-Regular.ttf",
+        "Vazirmatn-Light.ttf",
+        "Vazirmatn-Medium.ttf",
+        "Vazirmatn-SemiBold.ttf",
+        "Vazirmatn-Bold.ttf",
+        "Vazirmatn-ExtraBold.ttf",
+        "Vazirmatn-Black.ttf",
+        "Vazirmatn-Thin.ttf",
+        "Vazirmatn-ExtraLight.ttf"
+      ],
+      "matches": ["https://claude.ai/*"]
+    }
+  ]
+}
