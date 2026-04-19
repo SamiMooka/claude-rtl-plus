@@ -16,9 +16,9 @@
 
 <div dir="rtl">
 
-![اسکرین‌شات اول](screenshots/336454.png)
-![اسکرین‌شات دوم](screenshots/336455.png)
-![اسکرین‌شات سوم](screenshots/336456.png)
+| | | |
+|:---:|:---:|:---:|
+| ![اسکرین‌شات اول](screenshots/336454.png) | ![اسکرین‌شات دوم](screenshots/336455.png) | ![اسکرین‌شات سوم](screenshots/336456.png) |
 
 </div>
 
@@ -30,7 +30,11 @@
 
 افزونه را از صفحه رسمی افزونه‌های فایرفاکس نصب کنید:
 
-[![نصب از فایرفاکس](https://img.shields.io/badge/Firefox-نصب%20افزونه-FF7139?style=for-the-badge&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/claude-rtl-plus/)
+[![Firefox](https://img.shields.io/badge/Firefox-Install%20Add--on-FF7139?style=for-the-badge&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/claude-rtl-plus/)
+
+### کروم
+
+نسخه کروم این افزونه وجود دارد اما فعلاً منتشر نشده است.
 
 ---
 
